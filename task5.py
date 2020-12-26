@@ -7,7 +7,7 @@ from functools import reduce
 
 result = reduce(
     lambda item, total: item * total,
-    [x for x in range(9, 1001) if x % 2 == 0]
+    [x for x in range(100, 1001) if x % 2 == 0]
 )
 
 print(f'Result: { result }')
